@@ -19,12 +19,12 @@
     grid-area: header;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    padding: 5px 15px;
+    padding: 10px 30px;
 }
 
 .header-top {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 input {
@@ -42,9 +42,10 @@ input {
 
 .account-small {
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     padding: 0px 10px;
     align-items: center;
+    gap: 20px;
 }
 
 .sidebar {
