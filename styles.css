@@ -76,8 +76,38 @@ p.name {
 }
 
 .sidebar {
-    background-color: lightblue;
+    background-color: rgb(23, 118, 149);
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    margin-left: 15px;
+}
+
+ul {
+    display: grid;
+    grid-auto-rows: 40px;
 }
 
 .main {
