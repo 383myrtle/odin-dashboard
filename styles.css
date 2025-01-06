@@ -18,7 +18,7 @@
 .header {
     grid-area: header;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     padding: 5px 15px;
 }
 
@@ -43,4 +43,9 @@
 .main {
     background-color: grey;
     grid-area: main;
+}
+
+img {
+    width: 30px;
+    height: 30px;
 }
