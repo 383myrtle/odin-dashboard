@@ -174,7 +174,24 @@ ul.trending-display {
     display: grid;
     flex-grow: 1;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-content: center;
+    justify-content: start;
+}
+
+.trending-profile {
+    color: black;
+    gap: 10px;
+}
+
+.trending-profile img {
+    width: 40px;
+    height: 40px;
+}
+
+.trending-profile .description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
 }
 
 header {
