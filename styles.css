@@ -234,8 +234,9 @@ ul.trending-display {
     font-size: 14px;
 }
 
-header {
+.main p {
     margin: 10px 0px;
+
 }
 
 .announcement-display,
