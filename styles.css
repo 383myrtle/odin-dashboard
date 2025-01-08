@@ -207,6 +207,12 @@ li {
 .action-bar {
     align-self: flex-end;
     display: flex;
+    gap: 10px;
+}
+
+.action-bar img {
+    width: 25px;
+    height: 25px;
 }
 
 
