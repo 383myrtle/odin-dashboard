@@ -82,7 +82,7 @@ p.name {
 }
 
 .sidebar {
-    background-color: rgb(23, 118, 149);
+    background-color: skyblue;
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
